@@ -1,0 +1,2 @@
+komanda: PS1='[\D{%a %b %d}]\u@\h '
+rezultat: [Mon Oct 05]max@ws01 
