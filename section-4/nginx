@@ -1,0 +1,4 @@
+Komanda obnovleniya repositoriev:
+sudo apt update
+Komanda ustanovki paketa:
+sudo apt install -y nginx

@@ -1,0 +1,2 @@
+Komanda polnogo udaleniya paketa i ego zavisimostei:
+sudo apt purge --auto-remove -y libjs-jquery-jush

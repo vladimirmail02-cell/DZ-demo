@@ -1,0 +1,2 @@
+dpkg-query -W -f='${Package}\n'wget
+wget
