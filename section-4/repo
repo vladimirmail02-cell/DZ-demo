@@ -1,0 +1,12 @@
+Komanda ddlya ru4nogo redaktirovaniya:
+sudo nano /etc/apt/sources.list
+
+Opisanie deistvii:
+1. Otkroite konfigurcionni file repozitoriev s pravami super polzovatelya:
+sudo nano /etc/apt/sources.list
+2. Naiti stroku otve4aiyshiu za repozitorii obnovlenii bezopasnosti jammy-security. 
+3.udalit iz konca stroki slovo "universe". izmenennaya stroka budet imet vid:
+deb HTTP://security.ubuntu.com/ubuntu jammy-security main restricted multiverse
+4. sohranenie izmenenii
+5. Obnovlenie indeksa paketov, 4tobi APT primtnil novie nastroiki:
+sudo apt update

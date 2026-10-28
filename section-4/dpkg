@@ -1,0 +1,11 @@
+komanda:
+sudo dpkg -i /home/max/linux-vm/4/tor0.3.2.10-1amd64.deb
+
+Pri4ina oshibki:
+Oshibka voznikaet iz-za narusheniya zavisimostey (Dependency Problems). Paket tor trebuet nali4iya v sisteme drugih bibliotek ili paketov (naprimer, libssl, zlib i t. d.) kotorie v dannii moment ne ustanovleni. Utilita dpkg ne ymeet samostoyatelno ska4ivat nedostiyshie komponenti iz repozitoriev.
+Kak ispravit oshibku(varianti):
+1. Avtomati4eskoe ispravlenie narushennih Zavisimostei posle dpkg:
+sudo apt-get install -f
+)Eta komanda skomanduet menedjeru APT proverit bazu dannih, naiti nedostaiyshie zavisimosti dlya tor, ska4at ih iz interneta i zavershit ustanovku paketa).
+2. Ustanovka 4erez APT vmesto dpkg (bolee sovremenni sposob, kotoryi srazu razreshit zavisimosti):
+sudo apt install /home/max/linux-vm/4/tor0.3.2.10-1amd64.deb

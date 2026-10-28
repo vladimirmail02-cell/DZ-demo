@@ -1,0 +1,4 @@
+Komanda poiska paketa:
+apt search jquery jush
+Komanda ustanovki paketa:
+sudo apt install -y libjs-jquery-jush
