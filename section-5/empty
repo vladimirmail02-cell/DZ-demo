@@ -1,2 +1,2 @@
 find ~/empty/ -type f -size 12c
-grep -l "You got me"\! ~empty/file*
+grep -rl "You got me"\! ~/empty/
