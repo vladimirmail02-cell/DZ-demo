@@ -1,0 +1,1 @@
+find ~/owner/ -tape f -perm /u=w ! -perm /u=x
