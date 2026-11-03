@@ -1,0 +1,2 @@
+sudo apt update && sudo apt install -y iptables
+sudo iptables -L OUTPUT -n -v

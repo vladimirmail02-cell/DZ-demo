@@ -1,0 +1,1 @@
+find ~/owner/ -type f -perm -u=r ! -perm /u=wx
