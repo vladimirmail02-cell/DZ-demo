@@ -1,4 +1,4 @@
-sudo sed -i '$a 127.0.0.1 ://google.com' /etc/hosts
+sudo sed -i '$a 127.0.0.1 www.google.com' /etc/hosts
 
 127.0.0.1	localhost
 127.0.1.1	osboxes
@@ -10,4 +10,4 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 172.20.1.1 dev-gateway
-127.0.0.1 ://google.com
+127.0.0.1 www.google.com

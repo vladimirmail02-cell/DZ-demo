@@ -1,21 +1,28 @@
-dig ://google.com
+dig www.google.com
 
-; <<>> DiG 9.18.39-0ubuntu0.22.04.6-Ubuntu <<>> ://google.com
+; <<>> DiG 9.18.39-0ubuntu0.22.04.6-Ubuntu <<>> www.google.com
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 54364
-;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36191
+;; flags: qr rd ra; QUERY: 1, ANSWER: 8, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 65494
+; EDNS: version: 0, flags:; udp: 512
 ;; QUESTION SECTION:
-;://google.com.			IN	A
+;www.google.com.			IN	A
 
-;; AUTHORITY SECTION:
-com.			900	IN	SOA	a.gtld-servers.net. nstld.verisign-grs.com. 1793728621 1800 900 604800 900
+;; ANSWER SECTION:
+www.google.com.		246	IN	A	142.251.153.119
+www.google.com.		246	IN	A	142.251.155.119
+www.google.com.		246	IN	A	142.251.151.119
+www.google.com.		246	IN	A	142.251.152.119
+www.google.com.		246	IN	A	142.251.156.119
+www.google.com.		246	IN	A	142.251.150.119
+www.google.com.		246	IN	A	142.251.154.119
+www.google.com.		246	IN	A	142.251.157.119
 
-;; Query time: 106 msec
-;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
-;; WHEN: Tue Nov 03 12:57:21 EST 2026
-;; MSG SIZE  rcvd: 115
+;; Query time: 53 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8) (UDP)
+;; WHEN: Tue Nov 03 14:23:53 EST 2026
+;; MSG SIZE  rcvd: 171
 
